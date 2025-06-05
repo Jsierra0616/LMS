@@ -18,7 +18,6 @@ const navItems  = [
   {label: "Retos", href: "/retos", icon: Code2, badge: "Muy pronto"}, 
   {label: "Proyectos", href: "/proyectos", icon: Laptop}, 
 
-
 ]
 
 export default function Header () {
@@ -27,8 +26,8 @@ export default function Header () {
   return (
     <header className="sticky top-0, z-50, w-full, border-b, bg-background/95
     backdrop-blur">
-      {/* CONTENEDOR PRINCIAPL*/}
-      <div className="container flex h-16 items-center justify-between">
+      {/* CONTENEDOR PRINCIPAL*/}
+      <div className="container flex h-16 items-center justify-between px-4">
         {/* Logo y Navegaciòn */}
           <div className="flex items-center gap-2">
             {/* Logo */}
